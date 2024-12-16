@@ -1,0 +1,854 @@
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: "Assistant";
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+}
+.main-header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+/* header started */
+.header{
+    width: 1425px;
+    margin: auto;
+    /* padding: 20px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    position: relative;
+    
+}
+.submenu{
+    /* height: 300px; */
+    width: 1150px;
+    background-color: white;
+    position: absolute;
+    padding-left: 30px;
+    top: 100%;
+    left: 100px;
+    display: flex;
+    gap: 50px;
+    opacity: 0;
+    visibility: hidden;
+}
+.text>div{
+    /* position: relative; */
+    padding: 20px 0px;
+}
+
+.submenu-item h6{
+    margin-top: 10px;
+    font-weight: 600;
+    color: #ee5f73;
+    font-size: 17px;
+    padding-left: 15px;
+    text-transform: capitalize;
+}
+.submenu-item p{
+    margin: 10px 0;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.men:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+    font-weight: 600;
+}
+.submenu-item a p:hover{
+    
+    font-weight: 800;
+}
+
+.main-header{
+    box-shadow: 0px 0px 10px 0.2px #f2e7e7;
+    /* margin-bottom: 20px; */
+}
+.text{
+    display: flex;
+    gap: 30px;
+    font-weight: 650;
+    color: #282C3F;
+    /* position: relative; */
+}
+.text a{
+    text-decoration: none;
+    color: #282C3F;
+}
+.search{
+    display: flex;
+    border: none;
+    background-color: #F5F5F6;
+    gap: 20px;
+    width: 500px;
+    border-radius: 2px;
+    padding: 3px 0;
+
+}
+.search input:focus{
+    outline: none;
+}
+.search input{
+    border: none;
+    width: 300px;
+    background-color: transparent;
+}
+.search-icon{
+    padding: 0 15px;
+}
+.account{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.account a{
+    text-decoration: none;
+    color: #282C3F;
+}
+
+/* header ended */
+
+/* main started */
+
+.main-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-img1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-img2{
+    width: 100%;
+    display: flex;
+    padding:0 45px;
+}
+.main-img3{
+    width: 100%;
+    display: flex;
+}
+.main-img4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.main-img5{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+.main-img6{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red  ; */
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+/* main ended */
+
+ /* bottom started  */
+
+.bottom{
+    width: 100%;
+    background-color: #FAFBFC;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+}
+.bottom1{
+    margin: 25px 10% 0 10%;
+    width: 80%;
+    padding-top: 20px;
+    display: flex;
+    gap: 70px;
+    
+}
+.bottom1-{
+    margin: 0 10%;
+    width: 80%;
+    padding-top: 20px;
+    display: flex;
+    gap: 70px;
+    
+}
+.bottomrow1{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.bottomrow1 p a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.bottomrow1 div a{
+    text-align: center;
+    text-decoration: none;
+    color: #696b79;
+    font-size: 14px;
+}
+.bottomrow1 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bottomrow1 div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bottomrow1img{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.bottomrow1img1{
+    display: flex;
+    
+}
+.bottomrow1img1 img{
+    margin: 0 15px 0 0;
+    
+}
+.bottomrow1col1{
+    display: flex;
+    width: 300px;
+    gap: 13px;
+    font-size: 16px;
+}
+.bottomrow1para{
+    margin-top: 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+.bottom2{
+    margin: 0 10%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+    
+}
+
+.bottomrow2{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.line{
+    width: 87%;
+    height: 1px;
+    background-color: #696b79;
+    font-size: 6px;
+    position: absolute;
+    top: 29px;
+    left: 146px;
+    font-weight: 100;
+}
+.bottomrow2col a{
+    gap: 20px;
+    text-decoration: none;
+    color: #696b79;
+}
+.bottomrow3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #696b79;
+    width: 80%;
+    margin: 3% 10%;
+}
+hr{
+    width: 80%;
+    margin: 0 10%;
+}
+
+
+ /* bottom ended   */
+
+
+
+ /* t-shirt part started */
+
+
+ /* main part started */
+
+
+.tshirtmain1{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.tshirtmain2{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.tshirtmain3{
+    margin-left: 15px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.tshirtmainrow1{
+   font-size: 17px;
+   font-weight: 700;
+   margin-top: 20px;
+   margin-right: 200px;
+}
+.tshirtmainrow2{
+   display: flex;
+   gap: 20px;
+   width: 450px;
+   margin-top: 20px;
+   margin-right: 650px;
+}
+.tshirtcontant{
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+}
+.tshirtcontant i{
+    color: #ABADB5;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.tshirtmainrow3{
+  width: 350px;
+    border: 1px solid  #d4d5d9;
+    margin-right: 30px;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+.tshirtmainrow3 i{
+   margin-left: 40px;
+   color: #ABADB5;
+   margin-top: 5px;
+}
+
+
+/* main part ended */
+
+/* main bottom part started */
+
+.bottommain{
+    border-top: 1px solid #d4d5d9 ;
+    display: flex;
+}
+.bottommain1{
+    width: 18%;
+}
+.bottommainrow1{
+   
+    padding: 30px 20px 30px 30px;
+    border-right: 1px solid #d4d5d9 ;
+    border-bottom: 1px solid #d4d5d9 ;
+}
+.bottommainrow1 p{
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bottommainrow1 div{
+    gap: 10px;
+    font-size: 15px;
+    
+}
+.bottommaincol{
+    display: flex;
+    justify-content: space-between;
+}
+.bottommaincol i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f5f5f6;
+    padding-left: 9px;
+    padding-top: 7px;
+}
+.input{
+    display: flex;
+}
+.input div{
+    margin-top: 8px;
+}
+.checkbox{
+    height: 17px;
+    width: 17px;
+    margin-top: 10px;
+}
+.range{
+    width: 200px;
+    margin: 20px 0;
+}
+.color{
+    height: 18px;
+    width: 18px;
+    background-color: black;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+}
+.color1{
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+}
+.color2{
+    height: 18px;
+    width: 18px;
+    background-color: blue;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+}
+.color3{
+    height: 18px;
+    width: 18px;
+    background-color: navy ;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+}
+.color4{
+    height: 18px;
+    width: 18px;
+    background-color: green ;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+}
+.color5{
+    height: 18px;
+    width: 18px;
+    background-color: gray ;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+}
+.color6{
+    height: 18px;
+    width: 18px;
+    background-color: red ;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+}
+.color-{
+    height: 18px;
+    width: 18px;
+    background-color: white ;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+}
+.bottommainrow3{
+   
+    padding: 30px 20px 0px 30px;
+    border-right: 1px solid #d4d5d9 ;
+    border-bottom: 1px solid #d4d5d9 ;
+}
+.bottommainrow3 p{
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.bottommainrow3 div{
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+}
+.bottommain2{
+    width: 82%;
+   gap: 15px;
+   
+    margin-top: 27px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.t-shirtimg div p{
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+.t-shirtimg div{
+    margin-left: 5px;
+}
+
+
+/* main bottom part ended */
+
+ 
+ /* t-shirt  part ended */
+
+
+
+  /* detail  part started */
+
+/* main part started */
+
+.detailmain{
+    width: 100%;
+    padding-top: 35px;
+    padding-left: 30px;
+}
+.detail-{
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+   
+}
+.detail-1{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+}
+.detail-1img{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-page {
+    background: white;
+    border-radius: 8px;
+    max-width: 40%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .product-page p{
+    font-size: 22px;
+  }
+  .product-title {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  .rating {
+    border: 1px solid #d4d5d9;
+    width: 30%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  .rating span:first-child {
+    font-weight: bold;
+    color: #555;
+    border-right: 1px solid #d4d5d9;
+    margin-right: 15px; 
+    padding-right: 15px;
+  }
+  hr{
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    ;
+  }
+  
+  .price {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  
+  .current-price {
+    color: #282c3f;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+  }
+  
+  .discount {
+    color: #ff905a;
+    margin-left: 5px;
+  }
+  
+  .tax-info {
+    color: #03a685;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  
+  .size-section h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .sizes button {
+    margin: 5px;
+    padding: 13px 20px;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .sizes button.low-stock {
+    background: #fff4e6;
+    border-color: #ff9800;
+    color: #d17c00;
+  }
+  
+  .sizes button:disabled {
+    background: #e0e0e0;
+    color: #999;
+    cursor: not-allowed;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .add-to-bag {
+    flex: 1;
+    background: #ff4081;
+    color: white;
+    border: none;
+    padding: 13px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .add-to-bag i{
+    padding-right: 10px;
+  }
+  .wishlist i{
+    padding-right: 10px;
+
+  }
+  
+  .wishlist {
+    flex: 1;
+    background: white;
+    color: #000;
+    border: 1px solid black;
+    padding: 13px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .hr{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .delivery {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .delivery h3{
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .delivery h3 i{
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  .delivery p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+  
+  .delivery input {
+    padding: 8px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .delivery button {
+    padding: 8px 10px;
+    background: white;
+    color: #ff4081;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .offers-container {
+    margin-bottom: 30px;
+  }
+  .offers-container p{
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  
+ .offers-container h4 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .price {
+    color: #ff905a;
+    font-weight: bold;
+  }
+  
+  .coupon {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .best-price ul {
+    margin-left: 20px;
+  }
+  
+  .best-price li {
+    margin: 5px 0;
+  }
+  
+  .view-eligible,
+  .terms,
+  .view-plan {
+    color: #ff3f6c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .credit-offers ul {
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .product-details {
+    padding: 20px 0 0 0 ;
+    
+  }
+  
+  .product-details h3 {
+    padding-top: 20px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  .product-details h4 {
+    margin-bottom: 5px;
+    font-weight: 400;
+  }
+  .product-details p {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+
+  .detailmain1{
+    width: 100%;
+    padding-top: 35px;
+}
+  .detailmain1 h3{
+    width: 100%;
+    padding-top: 35px;
+}
+.product-details1 {
+}
+
+.product-details1 h2 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 20px;
+}
+.fabtext{
+  display: flex;
+  flex-wrap: wrap;
+}
+.fabtext1{
+  width: 50%;
+}
+.fabtext p{
+  width: 40%;
+  border-bottom: 1px solid #eaeaec;
+  padding: 5px 0;
+  font-weight: 400;
+  font-size: 18px;
+}
+.fabtext h6{
+  font-weight: 300;
+  padding: 5px 0;
+}
+.rating-score{
+  border-right: 1px solid #eaeaec;
+}
+.rating-score h3 {
+  font-size: 2.5em;
+  color: #777;
+  margin-right: 40px;
+
+}
+.rating1{
+  display: flex;
+  gap: 100px;
+}
+
+.rating-score p {
+  margin: 5px 40px 20px 0;
+  color: #000;
+  font-size: 16px;
+}
+
+.rating-breakdown p {
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.customer-feedback p {
+  margin: 10px 0;
+  font-size: 0.95em;
+  color: #333;
+}
+
+strong {
+  color: #000;
+}
+.t-shirtimg1{
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.-t-shirtimg2{
+  border: 1px solid #eaeaec;
+}
+
+
+/* main part ended */
+
+
+  /* detail  part ended */
